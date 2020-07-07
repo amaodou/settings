@@ -8,16 +8,15 @@
 
 ### 生成新的 Access Token，勾选 gist
 
-![github_create_gists_token](./images/github_create_gists_token.png)
+![github_create_access_token](./images/github_create_access_token.png)
 
 ### 记录生成的 Access Token
 
 ```github token
-macos_vscode_settings_sync: 97dd4f51fcb43a9bbd6ad355b759c4a095e13d10
-windows_vscode_settings_sync: 97078c69b050f839738f2d95b95544426e6e9869
+vscode_settings_sync: 72f059042c5458d257a2173abbd09d8ac4840ecb
 ```
 
-![github_gists_token](./images/github_gists_token.png)
+![github_access_token](./images/github_access_token.png)
 
 ## vscode Settings Sync 插件配置
 
@@ -33,4 +32,4 @@ windows_vscode_settings_sync: 97078c69b050f839738f2d95b95544426e6e9869
 
 ## 登录 github 查看同步结果
 
-![github_gist](./images/github_gist.png)
+![github_gists](./images/github_gists.png)
