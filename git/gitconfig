@@ -1,0 +1,41 @@
+[user]
+	name = lizhiyong36
+	email = lizhiyong5@jd.com
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --date=format:'%Y-%m-%d %H:%M:%S'
+	tg = log --no-walk --tags --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %Cgreen[%cd]%Creset %s' --date=format:'%Y-%m-%d'
+[core]
+	editor = vim
+[color]
+	ui = auto
+[color "branch"]
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
+[gui]
+	encoding = utf-8
+[push]
+	default = simple
